@@ -1,0 +1,9 @@
+.app-filter{
+    padding: 1.5rem;
+}
+.btn{
+    gap: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}

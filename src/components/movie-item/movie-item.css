@@ -1,0 +1,39 @@
+.list-group-item{
+padding: 15px 20px;
+border-bottom: 1px solid grey;
+}
+.list-group-item:last-child{
+    border-bottom: none;
+}
+.list-group-item span{
+    line-height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 550px;
+}
+.list-group-item input{
+    line-height: 35px;
+    font-size: 20px;
+    text-align: right;
+    border: 0;
+}
+
+.list-group-item.like .star{
+    opacity: 1;
+    transform:rotateY(180deg);
+    transition: all .80s ease-out;
+    color: red;
+}
+.list-group-item.favorite 
+ .list-group-item.favorite ,
+.list-group-item.favourite
+
+
+{
+    color: yellow;
+} 
+
+
+.list-group-item.increase .btn-star{
+    color:yellow;
+}
